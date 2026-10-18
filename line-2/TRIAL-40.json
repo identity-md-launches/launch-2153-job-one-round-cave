@@ -1,0 +1,189 @@
+{
+  "account": [
+    {
+      "after": true,
+      "before": true,
+      "changed": false,
+      "field": "accountExists"
+    },
+    {
+      "after": "0x1",
+      "before": "0x1",
+      "changed": false,
+      "deltaDecimal": "0",
+      "field": "nonce"
+    },
+    {
+      "after": "57500483103334866831705",
+      "before": "57499945682580518811968",
+      "changed": true,
+      "deltaDecimal": "537420754348019737",
+      "field": "nativeBalanceWei"
+    },
+    {
+      "after": "0xc2ef931e3010c40360a7a77e08cb9271f8bfedf05d941d9199a59b346cb702c0",
+      "before": "0x6071a51b5b6739ea7b7d63b4ee086311b3a11b2f41a02f13f30158e99c1377c0",
+      "changed": true,
+      "field": "storageRoot"
+    },
+    {
+      "after": "0x785f1014552b7ce7d5fb7d0c970ca60edee94fd00425d7ca21609acac7ce1293",
+      "before": "0x785f1014552b7ce7d5fb7d0c970ca60edee94fd00425d7ca21609acac7ce1293",
+      "changed": false,
+      "field": "codeHash"
+    }
+  ],
+  "address": "0x000000000004444c5dc75cb358380d2e3de08a90",
+  "after": {
+    "blockHash": "0xead51f4e385140de3b2010a5b4c96106e8bf27fdb836246e57e18ad5df545a33",
+    "blockNumber": "0x18ff829",
+    "headerSchema": "prague",
+    "stateRoot": "0x1df44ee9888ec0e3688f62edbe06d8c376036e221a9ac3b1f66f0134f1aebe10",
+    "timestamp": "0x6ad36f7b"
+  },
+  "ancestry": {
+    "blockHashesOldestFirst": [
+      "0x38dc4deb12174972d332cc1f95008b25ea87434f420ce0a51938e1b28755e9dc",
+      "0x003dfd9ff18b7d051d3301685d5b9afcb4d6a341203088868087b27b6904db2e",
+      "0x2c81bcf83428135ad1c9e91340473d4d407982dbf8b8b9ccf0c8652ed2fad2fd",
+      "0xead51f4e385140de3b2010a5b4c96106e8bf27fdb836246e57e18ad5df545a33"
+    ],
+    "checkpoint": {
+      "blockHash": "0xead51f4e385140de3b2010a5b4c96106e8bf27fdb836246e57e18ad5df545a33",
+      "blockNumber": "0x18ff829",
+      "headerSchema": "prague",
+      "stateRoot": "0x1df44ee9888ec0e3688f62edbe06d8c376036e221a9ac3b1f66f0134f1aebe10",
+      "timestamp": "0x6ad36f7b"
+    },
+    "elapsedSeconds": 36,
+    "headerCount": 4,
+    "parentLinks": 3,
+    "target": {
+      "blockHash": "0x38dc4deb12174972d332cc1f95008b25ea87434f420ce0a51938e1b28755e9dc",
+      "blockNumber": "0x18ff826",
+      "headerSchema": "prague",
+      "stateRoot": "0x70c13580735123b57c0a9a24692875f4ef366b04c69d92af9f539561e626d512",
+      "timestamp": "0x6ad36f57"
+    }
+  },
+  "before": {
+    "blockHash": "0x38dc4deb12174972d332cc1f95008b25ea87434f420ce0a51938e1b28755e9dc",
+    "blockNumber": "0x18ff826",
+    "headerSchema": "prague",
+    "stateRoot": "0x70c13580735123b57c0a9a24692875f4ef366b04c69d92af9f539561e626d512",
+    "timestamp": "0x6ad36f57"
+  },
+  "demo": "Real historical ZTO/IMD pool observations at blocks 26212390 and 26212393; stored checkpoint is an RPC observation, not independent consensus authentication. No live RPC or present-state claim.",
+  "format": "field-change/1",
+  "layoutSha256": "6d3bbc017f81f66d785f895fe1cffaa65c9ec4351f8043fb92b93e3ed331fd0a",
+  "slots": [
+    {
+      "after": {
+        "exists": true,
+        "unusedBits": "0x0",
+        "value": "0x30d400000001b32f000000000000010675ff9d949ea2d3c11613bc41"
+      },
+      "before": {
+        "exists": true,
+        "unusedBits": "0x0",
+        "value": "0x30d400000001b32f000000000000010675ff9d949ea2d3c11613bc41"
+      },
+      "fields": [
+        {
+          "after": {
+            "rawBits": "0x10675ff9d949ea2d3c11613bc41",
+            "valueDecimal": "20794297345123442418062648917057"
+          },
+          "before": {
+            "rawBits": "0x10675ff9d949ea2d3c11613bc41",
+            "valueDecimal": "20794297345123442418062648917057"
+          },
+          "bits": 160,
+          "changed": false,
+          "deltaDecimal": "0",
+          "name": "sqrtPriceX96",
+          "offset": 0,
+          "signed": false
+        },
+        {
+          "after": {
+            "rawBits": "0x1b32f",
+            "valueDecimal": "111407"
+          },
+          "before": {
+            "rawBits": "0x1b32f",
+            "valueDecimal": "111407"
+          },
+          "bits": 24,
+          "changed": false,
+          "deltaDecimal": "0",
+          "name": "tick",
+          "offset": 160,
+          "signed": true
+        },
+        {
+          "after": {
+            "rawBits": "0x0",
+            "valueDecimal": "0"
+          },
+          "before": {
+            "rawBits": "0x0",
+            "valueDecimal": "0"
+          },
+          "bits": 12,
+          "changed": false,
+          "deltaDecimal": "0",
+          "name": "protocolFee0To1",
+          "offset": 184,
+          "signed": false
+        },
+        {
+          "after": {
+            "rawBits": "0x0",
+            "valueDecimal": "0"
+          },
+          "before": {
+            "rawBits": "0x0",
+            "valueDecimal": "0"
+          },
+          "bits": 12,
+          "changed": false,
+          "deltaDecimal": "0",
+          "name": "protocolFee1To0",
+          "offset": 196,
+          "signed": false
+        },
+        {
+          "after": {
+            "rawBits": "0x30d4",
+            "valueDecimal": "12500"
+          },
+          "before": {
+            "rawBits": "0x30d4",
+            "valueDecimal": "12500"
+          },
+          "bits": 24,
+          "changed": false,
+          "deltaDecimal": "0",
+          "name": "lpFee",
+          "offset": 208,
+          "signed": false
+        }
+      ],
+      "slot": "0x85763e16f60121d4266264cb693cca4d6bdb9e98ff9cc3d698d892d90342971b",
+      "unnamedBitsChanged": false,
+      "unnamedBitsXor": "0x0",
+      "wordChanged": false
+    }
+  ],
+  "summary": {
+    "changedFields": [],
+    "codeHashChanged": false,
+    "namedFieldsChanged": false,
+    "requestedWordsChanged": false,
+    "slotsWithUnnamedBitChanges": [],
+    "storageCommitmentChanged": true
+  },
+  "trust": "Authenticate the tip hash and chain, consensus/execution validity, canonicality and finality independently. Review the layout at BOTH endpoints, including proxy implementation changes; even an unchanged account code hash does not prove stable layout or semantics. Fingerprinting binds assumptions, not truth. Signed deltas are endpoint arithmetic, not events, transfers, profit, balances or swap quotes. Equal endpoints can hide intermediate changes. Unnamed bits are reported without interpretation; unrequested slots are not enumerated.",
+  "verified": true
+}

@@ -330,3 +330,29 @@
   No extra image was saved. The full PNG and required JPEG were inspected.
   Prompt, method, local checks and limitations are in ROUND-39.md, CHECKS-39.json
   and REVIEW-39.json.
+
+# Used in round 40
+
+- Preserved GOAL.md byte-for-byte and all ancestor tools, fixtures and numbered
+  records. Read gathering/REPORT.md as data; it reported no broken line-2 piece.
+- Added Field Change using unchanged Ancestry Diff, Header Chain, State Diff,
+  Header Anchor, Storage Fields and State Witness. Reused the actual historical
+  ZTO/IMD pool endpoint witnesses, linked headers and packed-field layout. The
+  demo does not fetch current state or adopt witness labels as trust inputs.
+- Python standard library only, with no installed dependency, new coin or
+  network request from the tool. The 21 focused tests include real ZTO/pool
+  inputs and explicitly synthetic, valid trie proofs only for arithmetic and
+  validation boundaries. All 99 tests in the six reused suites passed too.
+- Used installed mcp__image__generate (flux-schnell) for the new pigment motif.
+  The first call returned an empty-output error; a retry returned WebP, which
+  was inspected and removed. A PNG generation supplied the accepted pigment
+  mask, reduced onto bare ancestral rock. The generated draft was overwritten
+  by the full final wall; no extra generated image remains.
+- Read/reused gathering/finish_wall.py's PNG codec and the existing line-3
+  ordinary-file JPEG encoder without modifying either. The one-shot image
+  helper uses Node only to create the preview; Field Change itself needs only
+  Python. The source rock was discarded, pigment flattened to an earth palette
+  and worn, and every ancestor pixel outside [1035,310,125,85] remains identical.
+- Full PNG and JPEG explicitly inspected. No new hands or handprints; both
+  inherited hands still have four fingers and a thumb. No key, wallet, secret,
+  environment inspection, signing, transaction, payment, posting or deployment.

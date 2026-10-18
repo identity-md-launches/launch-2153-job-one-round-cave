@@ -1,0 +1,38 @@
+{
+  "round": 40,
+  "ancestorSha256": "d7ab661233a3828e3fc3b2001cff35d4bb08ac227bee99eb056b0e145eb9367d",
+  "generatedDraftSha256": "c306004d94d3b6a68df12f5f73f421577e46cf3b42e6aa7e9cea2f5ce868b82c",
+  "wallSha256": "422c35d45aa016c17d012c36af590620cee0302d5530eae3cd59d62842b0571a",
+  "wall": {
+    "path": "artifacts/line-2/wall-v20.png",
+    "format": "PNG",
+    "channels": "RGB",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "bytes": 3954366
+  },
+  "preview": {
+    "path": "dist/line-2/40.jpg",
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 78389,
+    "sha256": "48fbfacf3732a7fa6c3ccd34ac98abc73628ed5722da66eacb6014c253388884"
+  },
+  "newMarkRectangle": [
+    1035,
+    310,
+    125,
+    85
+  ],
+  "changedPixels": 6597,
+  "changedPixelsOutsideRectangle": 0,
+  "method": "Installed image tool generated a pigment drawing. Only its pigment mask was reduced and blended with a fixed earth palette onto bare ancestor rock. All source rock and shading were discarded. No ancestor image was regenerated. A deterministic final wear pass leaves fine pigment gaps and varies opacity to retain the rock texture.",
+  "visualReview": "Explicitly inspected final full wall and 512-pixel JPEG. Warm rock, cracks, framing, light and all ancestral marks remain. Pepe retains wide mouth, heavy-lidded eyes and both unchanged five-digit hands (four fingers and one thumb each). New worn ochre seed forms contain pale pigment spots; no new hands, handprints, letters, numbers, captions, logos, borders or prohibited symbols observed. New motif is subtle at thumbnail size.",
+  "unmetVisualRequirements": [],
+  "deliveryNote": "The explicitly required beside-record JPEG is the sole new image outside artifacts/. The generated intermediate WebP was removed; its replacement PNG draft was overwritten by the finished full wall."
+}

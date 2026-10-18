@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "number": 40,
+  "oldRecordsUnchanged": 39,
+  "goalByteIdentical": true,
+  "scopeChecked": [
+    "artifacts/line-2/wall.png",
+    "line-2/USED.md",
+    "dist/line-2/40.jpg",
+    "dist/line-2/40.json",
+    "line-2/CHECKS-40.json",
+    "line-2/FINAL-CHECK-40.json",
+    "line-2/IMAGE_PROMPT-40.md",
+    "line-2/REVIEW-40.json",
+    "line-2/ROUND-40.md",
+    "line-2/TRIAL-40.json",
+    "line-2/check_round40.py",
+    "line-2/finish_wall40.py",
+    "line-2/tools/field-change/README.md",
+    "line-2/tools/field-change/field_change.py",
+    "line-2/tools/field-change/test_field_change.py"
+  ],
+  "wall": {
+    "format": "PNG",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "bytes": 3954366,
+    "sha256": "422c35d45aa016c17d012c36af590620cee0302d5530eae3cd59d62842b0571a"
+  },
+  "preview": {
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 78389
+  },
+  "changedPixels": 6597,
+  "changedPixelsOutsideNewMark": 0,
+  "unmetVisualRequirements": [],
+  "testsPassed": 120,
+  "authority": "Local checks and visual observation only, not independent certification."
+}

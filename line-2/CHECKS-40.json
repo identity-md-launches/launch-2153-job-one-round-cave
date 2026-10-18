@@ -1,0 +1,124 @@
+{
+  "checks": [
+    {
+      "tool": "field-change",
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "line-2/tools/field-change",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exitCode": 0,
+      "output": "test_absent_account_is_rejected (test_field_change.FieldChangeTests.test_absent_account_is_rejected) ... ok\ntest_both_endpoint_proofs_required (test_field_change.FieldChangeTests.test_both_endpoint_proofs_required) ... ok\ntest_broken_parent_link (test_field_change.FieldChangeTests.test_broken_parent_link) ... ok\ntest_cli_demo_fingerprint_and_compare (test_field_change.FieldChangeTests.test_cli_demo_fingerprint_and_compare) ... ok\ntest_cli_rejects_corrupt_second_proof_atomically (test_field_change.FieldChangeTests.test_cli_rejects_corrupt_second_proof_atomically) ... ok\ntest_code_change_is_explicit (test_field_change.FieldChangeTests.test_code_change_is_explicit) ... ok\ntest_full_width_signed_delta_is_not_modular_arithmetic (test_field_change.FieldChangeTests.test_full_width_signed_delta_is_not_modular_arithmetic) ... ok\ntest_input_immutability (test_field_change.FieldChangeTests.test_input_immutability) ... ok\ntest_labels_never_override_proven_values (test_field_change.FieldChangeTests.test_labels_never_override_proven_values) ... ok\ntest_multiple_real_zto_slots_and_numeric_order (test_field_change.FieldChangeTests.test_multiple_real_zto_slots_and_numeric_order) ... ok\ntest_one_header_identity (test_field_change.FieldChangeTests.test_one_header_identity) ... ok\ntest_overlap_and_boolean_width_rejected (test_field_change.FieldChangeTests.test_overlap_and_boolean_width_rejected) ... ok\ntest_pin_normalizes_order_and_slot_spelling (test_field_change.FieldChangeTests.test_pin_normalizes_order_and_slot_spelling) ... ok\ntest_real_pool_endpoints (test_field_change.FieldChangeTests.test_real_pool_endpoints) ... ok\ntest_signed_boundary_and_unsigned_delta (test_field_change.FieldChangeTests.test_signed_boundary_and_unsigned_delta) ... ok\ntest_storage_absence_is_proven_zero (test_field_change.FieldChangeTests.test_storage_absence_is_proven_zero) ... ok\ntest_strict_bounded_workspace_loading (test_field_change.FieldChangeTests.test_strict_bounded_workspace_loading) ... ok\ntest_unnamed_bits_change_without_named_change (test_field_change.FieldChangeTests.test_unnamed_bits_change_without_named_change) ... ok\ntest_unused_zero_requirement_at_both_ends (test_field_change.FieldChangeTests.test_unused_zero_requirement_at_both_ends) ... ok\ntest_wrong_pin_and_changed_layout (test_field_change.FieldChangeTests.test_wrong_pin_and_changed_layout) ... ok\ntest_wrong_tip_address_and_requested_slot (test_field_change.FieldChangeTests.test_wrong_tip_address_and_requested_slot) ... ok\n\n----------------------------------------------------------------------\nRan 21 tests in 1.331s\n\nOK\n"
+    },
+    {
+      "tool": "ancestry-diff",
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "line-2/tools/ancestry-diff",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exitCode": 0,
+      "output": "test_broken_parent_link_is_rejected (test_ancestry_diff.AncestryDiffTests.test_broken_parent_link_is_rejected) ... ok\ntest_bundle_metadata_is_not_a_trust_anchor (test_ancestry_diff.AncestryDiffTests.test_bundle_metadata_is_not_a_trust_anchor) ... ok\ntest_cli_rejects_bad_tip_proof_without_traceback (test_ancestry_diff.AncestryDiffTests.test_cli_rejects_bad_tip_proof_without_traceback) ... ok\ntest_cli_rejects_wrong_tip_without_success_output (test_ancestry_diff.AncestryDiffTests.test_cli_rejects_wrong_tip_without_success_output) ... ok\ntest_first_proof_corruption_is_rejected (test_ancestry_diff.AncestryDiffTests.test_first_proof_corruption_is_rejected) ... ok\ntest_one_header_same_state (test_ancestry_diff.AncestryDiffTests.test_one_header_same_state) ... ok\ntest_real_pool_endpoints_and_three_links (test_ancestry_diff.AncestryDiffTests.test_real_pool_endpoints_and_three_links) ... ok\ntest_tip_proof_corruption_is_rejected (test_ancestry_diff.AncestryDiffTests.test_tip_proof_corruption_is_rejected) ... ok\ntest_wrong_address_or_slot_is_rejected (test_ancestry_diff.AncestryDiffTests.test_wrong_address_or_slot_is_rejected) ... ok\ntest_wrong_tip_is_rejected (test_ancestry_diff.AncestryDiffTests.test_wrong_tip_is_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 0.484s\n\nOK\n"
+    },
+    {
+      "tool": "storage-fields",
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "line-2/tools/storage-fields",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exitCode": 0,
+      "output": "test_bad_boundaries_types_unknown_keys (test_storage_fields.StorageFieldsTests.test_bad_boundaries_types_unknown_keys) ... ok\ntest_cli_success_and_failure (test_storage_fields.StorageFieldsTests.test_cli_success_and_failure) ... ok\ntest_duplicate_names_and_numeric_slots (test_storage_fields.StorageFieldsTests.test_duplicate_names_and_numeric_slots) ... ok\ntest_fingerprint_normalizes_order_and_hex (test_storage_fields.StorageFieldsTests.test_fingerprint_normalizes_order_and_hex) ... ok\ntest_forged_value_fails (test_storage_fields.StorageFieldsTests.test_forged_value_fails) ... ok\ntest_metadata_is_not_evidence_and_inputs_unchanged (test_storage_fields.StorageFieldsTests.test_metadata_is_not_evidence_and_inputs_unchanged) ... ok\ntest_missing_nodes_fail (test_storage_fields.StorageFieldsTests.test_missing_nodes_fail) ... ok\ntest_overlapping_fields_fail (test_storage_fields.StorageFieldsTests.test_overlapping_fields_fail) ... ok\ntest_proven_absence_reports_zero (test_storage_fields.StorageFieldsTests.test_proven_absence_reports_zero) ... ok\ntest_real_pool (test_storage_fields.StorageFieldsTests.test_real_pool) ... ok\ntest_signed_extremes_and_lsb_offsets (test_storage_fields.StorageFieldsTests.test_signed_extremes_and_lsb_offsets) ... ok\ntest_strict_json_and_workspace_boundary (test_storage_fields.StorageFieldsTests.test_strict_json_and_workspace_boundary) ... ok\ntest_unused_bits_reject_or_report (test_storage_fields.StorageFieldsTests.test_unused_bits_reject_or_report) ... ok\ntest_wrong_account (test_storage_fields.StorageFieldsTests.test_wrong_account) ... ok\ntest_wrong_root_fails_before_decoding (test_storage_fields.StorageFieldsTests.test_wrong_root_fails_before_decoding) ... ok\ntest_wrong_slot (test_storage_fields.StorageFieldsTests.test_wrong_slot) ... ok\n\n----------------------------------------------------------------------\nRan 16 tests in 0.405s\n\nOK\n"
+    },
+    {
+      "tool": "header-chain",
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "line-2/tools/header-chain",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exitCode": 0,
+      "output": "test_bad_witness_cannot_pass_with_good_chain (test_header_chain.HeaderChainTests.test_bad_witness_cannot_pass_with_good_chain) ... ok\ntest_caller_address_and_slots_are_bound (test_header_chain.HeaderChainTests.test_caller_address_and_slots_are_bound) ... ok\ntest_chain_shapes_limits_and_unknown_header_fields (test_header_chain.HeaderChainTests.test_chain_shapes_limits_and_unknown_header_fields) ... ok\ntest_cli_both_real_demos_and_atomic_failure (test_header_chain.HeaderChainTests.test_cli_both_real_demos_and_atomic_failure) ... ok\ntest_consistently_rehashed_bad_number_or_time_is_rejected (test_header_chain.HeaderChainTests.test_consistently_rehashed_bad_number_or_time_is_rejected) ... ok\ntest_each_headers_committed_fields_are_bound (test_header_chain.HeaderChainTests.test_each_headers_committed_fields_are_bound) ... ok\ntest_loader_strict_json_size_and_workspace_boundary (test_header_chain.HeaderChainTests.test_loader_strict_json_size_and_workspace_boundary) ... ok\ntest_missing_reordered_and_duplicate_headers_fail (test_header_chain.HeaderChainTests.test_missing_reordered_and_duplicate_headers_fail) ... ok\ntest_optional_rpc_hashes_are_not_the_commitment (test_header_chain.HeaderChainTests.test_optional_rpc_hashes_are_not_the_commitment) ... ok\ntest_real_pool_uses_oldest_root (test_header_chain.HeaderChainTests.test_real_pool_uses_oldest_root) ... ok\ntest_real_zto_chain_and_input_preservation (test_header_chain.HeaderChainTests.test_real_zto_chain_and_input_preservation) ... ok\ntest_single_header_degenerates_to_direct_anchor (test_header_chain.HeaderChainTests.test_single_header_degenerates_to_direct_anchor) ... ok\ntest_unproven_metadata_is_ignored_and_embedded_trust_refused (test_header_chain.HeaderChainTests.test_unproven_metadata_is_ignored_and_embedded_trust_refused) ... ok\ntest_wrong_tip_and_trust_direction_fail (test_header_chain.HeaderChainTests.test_wrong_tip_and_trust_direction_fail) ... ok\n\n----------------------------------------------------------------------\nRan 14 tests in 0.903s\n\nOK\n"
+    },
+    {
+      "tool": "state-diff",
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "line-2/tools/state-diff",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exitCode": 0,
+      "output": "test_account_only_comparison (test_state_diff.StateDiffTests.test_account_only_comparison) ... ok\ntest_address_and_exact_slot_sets (test_state_diff.StateDiffTests.test_address_and_exact_slot_sets) ... ok\ntest_bad_claims_and_missing_nodes_on_either_side (test_state_diff.StateDiffTests.test_bad_claims_and_missing_nodes_on_either_side) ... ok\ntest_both_explicit_hashes_bound (test_state_diff.StateDiffTests.test_both_explicit_hashes_bound) ... ok\ntest_cli_demos_and_failure_has_no_partial_stdout (test_state_diff.StateDiffTests.test_cli_demos_and_failure_has_no_partial_stdout) ... ok\ntest_deterministic_and_inputs_unchanged (test_state_diff.StateDiffTests.test_deterministic_and_inputs_unchanged) ... ok\ntest_equal_height_competing_header_and_bad_time_rejected (test_state_diff.StateDiffTests.test_equal_height_competing_header_and_bad_time_rejected) ... ok\ntest_forged_account_fields_on_both_sides (test_state_diff.StateDiffTests.test_forged_account_fields_on_both_sides) ... ok\ntest_identical_checkpoint_zero_changes (test_state_diff.StateDiffTests.test_identical_checkpoint_zero_changes) ... ok\ntest_order_and_padded_slot_spelling_do_not_create_false_diff (test_state_diff.StateDiffTests.test_order_and_padded_slot_spelling_do_not_create_false_diff) ... ok\ntest_real_pool_changed_and_exact_arithmetic (test_state_diff.StateDiffTests.test_real_pool_changed_and_exact_arithmetic) ... ok\ntest_real_zto_root_changed_but_sampled_slots_unchanged (test_state_diff.StateDiffTests.test_real_zto_root_changed_but_sampled_slots_unchanged) ... ok\ntest_reverse_snapshots_rejected_even_with_right_hashes (test_state_diff.StateDiffTests.test_reverse_snapshots_rejected_even_with_right_hashes) ... ok\ntest_untrusted_bundle_labels_ignored (test_state_diff.StateDiffTests.test_untrusted_bundle_labels_ignored) ... ok\ntest_workspace_boundary_is_retained (test_state_diff.StateDiffTests.test_workspace_boundary_is_retained) ... ok\n\n----------------------------------------------------------------------\nRan 15 tests in 1.397s\n\nOK\n"
+    },
+    {
+      "tool": "header-anchor",
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "line-2/tools/header-anchor",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exitCode": 0,
+      "output": "test_all_supported_schemas_against_real_mainnet_hashes (test_anchor.HeaderAnchor.test_all_supported_schemas_against_real_mainnet_hashes) ... ok\ntest_claimed_hash_cannot_replace_actual_hash (test_anchor.HeaderAnchor.test_claimed_hash_cannot_replace_actual_hash) ... ok\ntest_cli_success_and_failure_statuses (test_anchor.HeaderAnchor.test_cli_success_and_failure_statuses) ... ok\ntest_data_lengths_and_canonical_quantities (test_anchor.HeaderAnchor.test_data_lengths_and_canonical_quantities) ... ok\ntest_every_committed_field_is_bound (test_anchor.HeaderAnchor.test_every_committed_field_is_bound) ... ok\ntest_every_missing_field_fails_against_fixed_hash (test_anchor.HeaderAnchor.test_every_missing_field_fails_against_fixed_hash) ... ok\ntest_json_duplicates_size_and_workspace_boundary (test_anchor.HeaderAnchor.test_json_duplicates_size_and_workspace_boundary) ... ok\ntest_other_real_account_can_use_same_header (test_anchor.HeaderAnchor.test_other_real_account_can_use_same_header) ... ok\ntest_proof_tamper_and_wrong_caller_expectations (test_anchor.HeaderAnchor.test_proof_tamper_and_wrong_caller_expectations) ... ok\ntest_real_pool_header_and_storage (test_anchor.HeaderAnchor.test_real_pool_header_and_storage) ... ok\ntest_rpc_hash_is_optional_but_anchor_is_required (test_anchor.HeaderAnchor.test_rpc_hash_is_optional_but_anchor_is_required) ... ok\ntest_unproven_bundle_labels_are_not_reported (test_anchor.HeaderAnchor.test_unproven_bundle_labels_are_not_reported) ... ok\ntest_unsupported_suffixes_and_new_fields_fail_closed (test_anchor.HeaderAnchor.test_unsupported_suffixes_and_new_fields_fail_closed) ... ok\ntest_zero_is_rlp_empty_and_nonce_remains_eight_bytes (test_anchor.HeaderAnchor.test_zero_is_rlp_empty_and_nonce_remains_eight_bytes) ... ok\n\n----------------------------------------------------------------------\nRan 14 tests in 0.372s\n\nOK\n"
+    },
+    {
+      "tool": "state-witness",
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "line-2/tools/state-witness",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exitCode": 0,
+      "output": "test_capture_pins_numeric_block_and_rechecks_proof (test_witness.EIP1186.test_capture_pins_numeric_block_and_rechecks_proof) ... ok\ntest_capture_rejects_other_chain (test_witness.EIP1186.test_capture_rejects_other_chain) ... ok\ntest_duplicate_json_key_and_nan_rejected (test_witness.EIP1186.test_duplicate_json_key_and_nan_rejected) ... ok\ntest_invalid_zero_leaf_rejected (test_witness.EIP1186.test_invalid_zero_leaf_rejected) ... ok\ntest_missing_or_altered_account_nodes (test_witness.EIP1186.test_missing_or_altered_account_nodes) ... ok\ntest_nonexistent_account_and_storage (test_witness.EIP1186.test_nonexistent_account_and_storage) ... ok\ntest_nonzero_storage_inclusion (test_witness.EIP1186.test_nonzero_storage_inclusion) ... ok\ntest_real_zto_mainnet (test_witness.EIP1186.test_real_zto_mainnet) ... ok\ntest_real_zto_pool_nonzero_storage_inclusion (test_witness.EIP1186.test_real_zto_pool_nonzero_storage_inclusion) ... ok\ntest_rpc_methods_allowlist_and_redirects (test_witness.EIP1186.test_rpc_methods_allowlist_and_redirects) ... ok\ntest_storage_slot_set_binding_and_duplicates (test_witness.EIP1186.test_storage_slot_set_binding_and_duplicates) ... ok\ntest_storage_value_tampering (test_witness.EIP1186.test_storage_value_tampering) ... ok\ntest_tampered_all_claims (test_witness.EIP1186.test_tampered_all_claims) ... ok\ntest_wrong_root_wrong_expected_address (test_witness.EIP1186.test_wrong_root_wrong_expected_address) ... ok\ntest_canonical_integer_and_hex (test_witness.KeccakAndRLP.test_canonical_integer_and_hex) ... ok\ntest_erc20_selector (test_witness.KeccakAndRLP.test_erc20_selector) ... ok\ntest_independent_ethereum_hash_vectors (test_witness.KeccakAndRLP.test_independent_ethereum_hash_vectors) ... ok\ntest_nesting_limit (test_witness.KeccakAndRLP.test_nesting_limit) ... ok\ntest_noncanonical_truncated_and_trailing_rlp (test_witness.KeccakAndRLP.test_noncanonical_truncated_and_trailing_rlp) ... ok\ntest_official_rlp_examples (test_witness.KeccakAndRLP.test_official_rlp_examples) ... ok\ntest_rlp_length_boundaries (test_witness.KeccakAndRLP.test_rlp_length_boundaries) ... ok\ntest_empty_trie_absence (test_witness.PatriciaTrie.test_empty_trie_absence) ... ok\ntest_extension_to_hashed_branch_and_branch_value (test_witness.PatriciaTrie.test_extension_to_hashed_branch_and_branch_value) ... ok\ntest_inline_child_and_empty_branch_absence (test_witness.PatriciaTrie.test_inline_child_and_empty_branch_absence) ... ok\ntest_invalid_compact_paths (test_witness.PatriciaTrie.test_invalid_compact_paths) ... ok\ntest_invalid_node_and_empty_extension (test_witness.PatriciaTrie.test_invalid_node_and_empty_extension) ... ok\ntest_leaf_inclusion_and_divergent_leaf_absence (test_witness.PatriciaTrie.test_leaf_inclusion_and_divergent_leaf_absence) ... ok\ntest_missing_root_and_missing_child_rejected (test_witness.PatriciaTrie.test_missing_root_and_missing_child_rejected) ... ok\ntest_noncanonical_hash_and_inline_child_references (test_witness.PatriciaTrie.test_noncanonical_hash_and_inline_child_references) ... ok\ntest_resource_bounds (test_witness.PatriciaTrie.test_resource_bounds) ... ok\n\n----------------------------------------------------------------------\nRan 30 tests in 0.513s\n\nOK\n"
+    }
+  ],
+  "authority": "Local observations only; no independent certification."
+}
