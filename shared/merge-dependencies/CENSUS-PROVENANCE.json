@@ -1,0 +1,11 @@
+{
+  "source": "line-4/tools/component-census/components.py",
+  "source_sha256": "faf854957112830478465564f437cfd2dc350db707432762980b836197e35509",
+  "copy": "shared/merge-dependencies/components.py",
+  "copy_sha256": "291032037fc73c813b120d11f8d4686d04b24f9b9ea4d6f72d38f6258c9fa5cc",
+  "adaptations": [
+    "checker module path changed to the existing portable exhaustive.py",
+    "demo catalog path changed to the existing shared examples/requests.json"
+  ],
+  "algorithm_changed": false
+}

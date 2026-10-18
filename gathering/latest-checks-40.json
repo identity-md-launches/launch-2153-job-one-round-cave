@@ -1,0 +1,27 @@
+{
+  "line_1": {
+    "tool": "bounded merge receipt",
+    "branch_hunks": [
+      1,
+      1
+    ],
+    "exit": 0
+  },
+  "line_2": {
+    "tool": "field change",
+    "verified": true,
+    "exit": 0
+  },
+  "line_3": {
+    "tool": "evidence bundle",
+    "integrity_check": true,
+    "restored_receipt_reproduced": true,
+    "exit": 0
+  },
+  "line_4": {
+    "tool": "component census",
+    "status": "complete",
+    "compatible_selections": 8,
+    "exit": 0
+  }
+}

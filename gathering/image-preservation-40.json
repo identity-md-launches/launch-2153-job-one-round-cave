@@ -1,0 +1,21 @@
+{
+  "ancestor_sha256": "933e071312f47fc29b884c4aa33f4eb34122a73ba2c09ae08abe18843098c6f9",
+  "generated_draft_sha256": "83ffd8239a9e4b6d774b8ff2724a86a6a2f898f6c8b6d8d69f807074c0a6d31b",
+  "wall_sha256": "838ff1c634c8508cd8c98e77cd1512b6f774b175268541174f9e112adae9a6a6",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "format": "PNG",
+  "mode": "RGB",
+  "new_mark_rectangle": [
+    30,
+    305,
+    230,
+    170
+  ],
+  "changed_pixels": 3124,
+  "changed_pixels_outside_rectangle": 0,
+  "new_hands_or_handprints": 0,
+  "method": "Transparent generated pigment, thresholded and blended only inside the stated rectangle over the inherited rock."
+}

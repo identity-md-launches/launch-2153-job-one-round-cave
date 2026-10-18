@@ -1,0 +1,3 @@
+# Gathering 40 image
+
+Built-in imagegen prompt: isolated transparent cave pigment motif of three small pebble clusters connected by faint red-ochre trails to one chalk hollow circle; hand-painted, worn charcoal and earth pigments; no frog, hands, handprints, text, numbers, border or background rock. The generated RGBA mark was sampled only for opaque pigment and blended into the inherited gathering wall in `[30,305,230,170]`. The output is a subtle added mark over the existing rock, with no pixels changed elsewhere. Full-size PNG and JPEG preview were inspected; no letters, numbers, hands or forbidden symbols were observed. The original Pepe remains the main figure. This visual review cannot prove every inherited finger detail because the inherited hands are concealed.

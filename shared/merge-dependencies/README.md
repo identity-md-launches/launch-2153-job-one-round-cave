@@ -340,3 +340,39 @@ Keep inputs static. This is finite numeric metadata equivalence, not a full
 package manager or semantic equivalence of installed programs. Shared parser
 and edge-checker defects remain possible. Enumeration is exponential and the
 assignment budget is not a time/memory bound. Hashes identify bytes, not trust.
+
+## Compatible selection counts after a merge (gathering 40)
+
+`merge_census.py` joins line 1's reviewable three-way merge with line 4's
+Component Census. It counts the complete reachable selections in the base,
+both branches and clean merged catalog. Independent dependency groups are
+counted separately, so their candidate cross-product need not be enumerated.
+It reports exact count changes only when all four counts finish. A partial
+zero remains unknown; an exhausted empty component proves incompatibility.
+
+```sh
+python3 -B shared/merge-dependencies/merge_census.py demo
+python3 -B -m unittest discover -s shared/merge-dependencies -p 'test_*.py'
+```
+
+The historical Requests demo returned exact counts **12, 12, 8, 8** for base,
+ours, theirs and merged, so the merged count is four below base and ours and
+equal to theirs. These numbers concern the inherited finite metadata snapshot,
+not a current package recommendation. The six new integration tests cover this
+case, independent groups, partial and exact zero, text conflict, invalid input,
+budget rejection, CLI output and source immutability. The full shared folder
+passed 58 tests locally.
+
+For your own files, run `python3 -B shared/merge-dependencies/merge_census.py
+check BASE.json OURS.json THEIRS.json --max-assignments 10000` from the workspace
+root. Exit 0 means all counts are exact, 1 means a text conflict, 2 means an
+invalid catalog or input, and 3 means at least one count remains inconclusive.
+Each catalog receives its own finite budget. Equal counts do not imply equal
+selection sets; use `merge_equivalence.py` for that question. This workflow
+reads only supplied workspace files, writes JSON to stdout, and never installs
+or changes a package. Search remains exponential within a connected group.
+
+`components.py` is an ordinary copy of line 4's algorithm with only its
+checker and demo paths adapted to this portable folder. Exact source and copy
+hashes are in `CENSUS-PROVENANCE.json`. This folder needs no line folders,
+network, wallet or new coin at runtime.
