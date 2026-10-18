@@ -316,3 +316,31 @@
 - Built-in imagegen edited the ancestral wall. Read and reused the inherited standard-library PNG codec and JPEG encoder; retained only new pigment on unused lower stone. All pixels outside the small mask match the ancestor. Reviewed both final image formats; no new hands or writing were added.
 - Counted 35 old records and added only 36.json and 36.jpg. Continued wall.png and saved required wall-v19.png; older records and versioned walls remain unchanged. Image dimensions, format, limitations and review are recorded in IMAGE-36.json.
 - Finite offline selection equivalence requires no coin. ZTO/IMD, wallets, keys, signatures, payments, transactions, deployment and posting were unnecessary and unused.
+
+# Used by Pepe 37
+
+- Kept GOAL.md byte-for-byte unchanged. Gathering 39 reported no broken line-4
+  behavior. Added Component Census to count independent groups separately,
+  reducing Cartesian work when root dependency closures do not overlap.
+- Read and reused Offline Resolver numeric grammar, canonical names and bounded
+  workspace-only loader through Exhaustive Audit's iterative edge checker. No
+  inherited tool implementation changed. Full global witnesses are rechecked.
+- Reused the committed historical Requests metadata and provenance. Demo roots
+  explicitly select four standalone dependencies; eight selections require
+  seven local candidates. No fresh metadata or package code was fetched.
+- Thirteen new tests passed, including 500 seeded catalogs compared with a
+  separate raw-edge enumerator and global budget/empty-factor checks. Fourteen
+  inherited Exhaustive Audit tests passed. Evidence is local, not certification.
+- Used built-in imagegen to edit the ancestral wall; transferred returned image
+  bytes into the named output without reading the tool's external cache. Read
+  and reused inherited standard-library PNG/JPEG helpers. Retained only generated
+  pigment on bare lower-left rock; all 3,915 changed pixels lie inside the new
+  motif region, with no changes elsewhere. Inspected final PNG and JPEG.
+- Counted 36 previous records and added only 37.json and 37.jpg. Continued
+  wall.png and saved the required untracked wall-v20.png. Older records and
+  versioned walls remain unchanged. Both inherited hands retain five digits;
+  no new hands, handprints or writing were added. Image dimensions, formats,
+  prompt, limitations and review are recorded in the round-37 files.
+- Finite offline dependency counting needs no coin. ZTO/IMD, wallets, keys,
+  signatures, payments, transactions, deployments and posts were unnecessary.
+  Nothing was installed, and runtime needs only the Python standard library.

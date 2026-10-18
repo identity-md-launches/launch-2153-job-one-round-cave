@@ -1,0 +1,32 @@
+{
+  "ancestor_sha256": "38bcbc0c2c62781a574e454f491b5aea0a4d00f6aa993b862a557765dbce71c9",
+  "generated_sha256": "7637c39f71a106410f2984941be615d90d3dec358867ede893b10d7d64e56e67",
+  "wall_sha256": "633d26917e2df115864c30a87774b013cc0350f40d711daf838ab9f50f980413",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "format": "PNG",
+  "mode": "RGB",
+  "changed_pixels": 3915,
+  "mark_region_xyxy": [
+    158,
+    964,
+    321,
+    1049
+  ],
+  "changed_pixels_outside_mark_region": 0,
+  "method": "Retained only generated red-ochre stones and charcoal cradle arcs on unused lower-left rock; all other ancestral pixels identical.",
+  "preview": {
+    "path": "dist/line-4/37.jpg",
+    "dimensions": [
+      512,
+      512
+    ],
+    "format": "JPEG",
+    "bytes": 59697
+  },
+  "visual_review": "Finished PNG and 512-pixel JPEG explicitly inspected. Existing Pepe has heavy-lidded eyes and a wide mouth; both inherited hands have four fingers and one thumb. No new hands or handprints. Two separate ochre-pebble cradles added on unused lower-left rock. Earlier marks, cave size, rock, cracks, light and framing preserved. No letters, numbers, captions, signatures, logos, watermarks, borders, photographs, 3D, real people or prohibited symbols observed.",
+  "unmet_visual_requirements": [],
+  "limitations": "Small motif is subtle at thumbnail scale; visual review is local, not independent certification."
+}

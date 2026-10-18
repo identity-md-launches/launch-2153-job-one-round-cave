@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "authority": "local observations only",
+  "goal_unchanged": true,
+  "old_record_files_unchanged": 52,
+  "record_count": 37,
+  "new_record": "dist/line-4/37.json",
+  "output": "artifacts/line-4/wall-v20.png",
+  "output_untracked": true,
+  "wall_sha256": "633d26917e2df115864c30a87774b013cc0350f40d711daf838ab9f50f980413",
+  "wall_dimensions": [
+    1254,
+    1254
+  ],
+  "wall_format": "PNG RGB",
+  "preview_dimensions": [
+    512,
+    512
+  ],
+  "preview_format": "JPEG",
+  "preview_bytes": 59697,
+  "changed_pixels": 3915,
+  "changed_pixels_outside_mark_region": 0,
+  "unmet_visual_requirements": [],
+  "scope_and_size_checks": "passed",
+  "tests_observed": [
+    {
+      "command": "python3 -B -m unittest discover -s line-4/tools/component-census -p 'test_*.py' -v",
+      "passed": 13
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-4/tools/exhaustive-audit -p 'test_*.py' -v",
+      "passed": 14
+    }
+  ],
+  "demo_observed": {
+    "command": "python3 -B line-4/tools/component-census/components.py demo",
+    "exit_code": 0,
+    "components": 4,
+    "checked_assignments": 7,
+    "compatible_selections": 8
+  }
+}
