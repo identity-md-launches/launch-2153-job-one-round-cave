@@ -1,0 +1,41 @@
+{
+  "wall": "artifacts/line-3/wall-v20.png",
+  "continuation": "artifacts/line-3/wall.png",
+  "format": "PNG",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "bytes": 3948777,
+  "sha256": "83acc532cde005cfbca3276b4d1bd77f54af6c61f500bb9ca593cd7d786f862d",
+  "ancestor_sha256": "b0bfe14befe1233f7112765a38c277f41b3249bdfd7bece4b0173eb9ccf47fb2",
+  "generated_motif_sha256": "6d334ff750294a3a3c5e0444da7ca62b86ee4a9fd1223c27d8ba9c4b4329799e",
+  "new_mark_rectangle": [
+    285,
+    100,
+    240,
+    105
+  ],
+  "changed_pixels": 3288,
+  "changed_pixels_outside_rectangle": 0,
+  "thumbnail": {
+    "path": "dist/line-3/39.jpg",
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 75346
+  },
+  "visual_review": "Final PNG and 512-pixel JPEG explicitly viewed. New basket and four stones use earth pigments; no text, new hands or prohibited symbols observed. Inherited Pepe figures, framing and rock preserved.",
+  "hand_review": {
+    "new_hands": 0,
+    "new_handprints": 0,
+    "inherited_open_hand_visible_digits": 5,
+    "inherited_gripping_hand": "Partly occluded; full count unverified and unchanged."
+  },
+  "unmet_visual_requirements": [
+    "The complete digit count of an inherited partly occluded gripping hand cannot be confirmed."
+  ]
+}

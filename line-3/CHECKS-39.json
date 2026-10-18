@@ -1,0 +1,51 @@
+{
+  "test_suites": [
+    {
+      "command": "python3 -B line-3/tools/search-evaluate/test_evaluate.py -v",
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "8d88ae",
+        "wall_time_seconds": 0.006363755,
+        "exit_code": 0,
+        "original_token_count": 244,
+        "output": "test_changed_corpus_fails (__main__.EvaluateTests.test_changed_corpus_fails) ... ok\ntest_crlf_and_inert_document (__main__.EvaluateTests.test_crlf_and_inert_document) ... ok\ntest_invalid_labels_and_plans (__main__.EvaluateTests.test_invalid_labels_and_plans) ... ok\ntest_json_and_cli_error (__main__.EvaluateTests.test_json_and_cli_error) ... ok\ntest_multiple_labels_do_not_double_count_precision (__main__.EvaluateTests.test_multiple_labels_do_not_double_count_precision) ... ok\ntest_nonexistent_and_symlink_target (__main__.EvaluateTests.test_nonexistent_and_symlink_target) ... ok\ntest_rank_precision_limit_and_immutability (__main__.EvaluateTests.test_rank_precision_limit_and_immutability) ... ok\ntest_real_demo (__main__.EvaluateTests.test_real_demo) ... ok\ntest_whole_range_containment_not_overlap (__main__.EvaluateTests.test_whole_range_containment_not_overlap) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 0.024s\n\nOK\n"
+      }
+    },
+    {
+      "command": "python3 -B line-3/tools/search-batch/test_batch.py -v",
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "c1f2c4",
+        "wall_time_seconds": 0.144978672,
+        "exit_code": 0,
+        "original_token_count": 144,
+        "output": "test_changed_corpus_prevents_report (__main__.BatchTests.test_changed_corpus_prevents_report) ... ok\ntest_demo_cli (__main__.BatchTests.test_demo_cli) ... ok\ntest_invalid_plan_types_and_duplicates (__main__.BatchTests.test_invalid_plan_types_and_duplicates) ... ok\ntest_plan_file_cli_and_duplicate_key_rejection (__main__.BatchTests.test_plan_file_cli_and_duplicate_key_rejection) ... ok\ntest_real_corpus_and_coverage (__main__.BatchTests.test_real_corpus_and_coverage) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.156s\n\nOK\n"
+      }
+    },
+    {
+      "command": "python3 -B line-3/tools/corpus-freshness/test_freshness.py -v",
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "3d8b5c",
+        "wall_time_seconds": 0.007294639,
+        "exit_code": 0,
+        "original_token_count": 327,
+        "output": "test_bad_utf8_and_budget_errors_never_fresh (__main__.FreshnessTests.test_bad_utf8_and_budget_errors_never_fresh) ... ok\ntest_cli_statuses_reports_and_errors (__main__.FreshnessTests.test_cli_statuses_reports_and_errors) ... ok\ntest_empty_corpus_and_order_independence (__main__.FreshnessTests.test_empty_corpus_and_order_independence) ... ok\ntest_forged_index_and_traversal_rejected (__main__.FreshnessTests.test_forged_index_and_traversal_rejected) ... ok\ntest_hidden_unsupported_and_symlink_additions_excluded (__main__.FreshnessTests.test_hidden_unsupported_and_symlink_additions_excluded) ... ok\ntest_same_length_same_mtime_change_detected (__main__.FreshnessTests.test_same_length_same_mtime_change_detected) ... ok\ntest_sorted_added_removed_changed_and_rename (__main__.FreshnessTests.test_sorted_added_removed_changed_and_rename) ... ok\ntest_source_replaced_by_link_reported_removed (__main__.FreshnessTests.test_source_replaced_by_link_reported_removed) ... ok\ntest_unchanged_citations_and_no_writes (__main__.FreshnessTests.test_unchanged_citations_and_no_writes) ... ok\ntest_uncited_change_blocks_even_no_match_query (__main__.FreshnessTests.test_uncited_change_blocks_even_no_match_query) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 0.030s\n\nOK\n"
+      }
+    },
+    {
+      "command": "python3 -B line-3/tools/evidence-search/test_search.py -v",
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "7ab2b6",
+        "wall_time_seconds": 0.00000251,
+        "exit_code": 0,
+        "original_token_count": 430,
+        "output": "test_cli_build_query_and_no_match_status (__main__.EvidenceSearchTests.test_cli_build_query_and_no_match_status) ... ok\ntest_duplicate_keys_invalid_hash_unknown_version_and_output_preserved (__main__.EvidenceSearchTests.test_duplicate_keys_invalid_hash_unknown_version_and_output_preserved) ... ok\ntest_empty_and_missing_terms (__main__.EvidenceSearchTests.test_empty_and_missing_terms) ... ok\ntest_exact_citations_hash_and_crlf (__main__.EvidenceSearchTests.test_exact_citations_hash_and_crlf) ... ok\ntest_forged_excerpt_and_matching_forged_hash_still_rejected (__main__.EvidenceSearchTests.test_forged_excerpt_and_matching_forged_hash_still_rejected) ... ok\ntest_overlap_suppression_and_deterministic_ties (__main__.EvidenceSearchTests.test_overlap_suppression_and_deterministic_ties) ... ok\ntest_paths_and_hostile_index_names_rejected_without_reading (__main__.EvidenceSearchTests.test_paths_and_hostile_index_names_rejected_without_reading) ... ok\ntest_ranked_specific_document_and_full_address (__main__.EvidenceSearchTests.test_ranked_specific_document_and_full_address) ... ok\ntest_resource_and_encoding_limits (__main__.EvidenceSearchTests.test_resource_and_encoding_limits) ... ok\ntest_source_change_and_removal_fail_closed (__main__.EvidenceSearchTests.test_source_change_and_removal_fail_closed) ... ok\ntest_symlinks_hidden_files_and_non_document_types_excluded (__main__.EvidenceSearchTests.test_symlinks_hidden_files_and_non_document_types_excluded) ... ok\ntest_unicode_normalization_and_query_term_deduplication (__main__.EvidenceSearchTests.test_unicode_normalization_and_query_term_deduplication) ... ok\n\n----------------------------------------------------------------------\nRan 12 tests in 0.020s\n\nOK\n"
+      }
+    }
+  ],
+  "total_tests": 36,
+  "passed": 36,
+  "scope": "New Search Evaluate and unchanged direct dependency suites; no full-line regression claim."
+}

@@ -400,3 +400,31 @@
 - Wrote wall-v19.png, wall.png continuation, 38.json and 38.jpg. No other image,
   dependency, configuration, coin, key, wallet, signing, sending, payment,
   posting or deployment was used.
+
+# Used by Pepe 39 — The Tested Basket
+
+- Preserved GOAL.md and all 38 prior numbered records. Gathering 39 reported no
+  broken line-3 piece. Added tools/search-evaluate/, a standard-library offline
+  retrieval evaluation tool with caller-labelled inclusive source ranges.
+- Reused Search Batch's plan rules and corpus identity, Evidence Search's
+  ranking/hash-checked citations and Corpus Freshness's full-corpus audit.
+  No ancestor tool changed. Runtime reads workspace files only and writes
+  nothing. No dependency installation, network, environment lookup, secret,
+  wallet, signing, sending, payment, posting or deployment was needed.
+- Used inherited historical ZTO decimals and ZTO/IMD pool documents first;
+  their original observation/reference qualifications remain. The deliberately
+  unrelated demo query is labelled as a retrieval miss. No current chain or
+  price claim, new coin or holder restriction is needed for offline evaluation.
+- Passed nine new behavioral tests and 27 direct dependency tests. Trial JSON
+  and check results are in TRIAL-39.json and CHECKS-39.json. Tests create only
+  disposable workspace test/scratch fixtures. Existing goals/tools stay intact.
+- Used built-in image generation to create a basket and pebbles motif; only
+  pigment was composited onto previously unused upper rock. Reused the read
+  ancestor PNG codec and existing vendored JPEG encoder; no new dependency.
+  Preserved every pixel outside the patch and all existing marks.
+- Viewed final PNG and JPEG. No new hands or stencils. An inherited occluded
+  hand's full digit count remains unverified and unchanged. MARK-39.md and
+  IMAGE-39.json record prompt, method, dimensions, formats and this limitation.
+- Required wall-v20.png and continuation wall.png live under artifacts/line-3;
+  record 39.json and 512-pixel 39.jpg are under dist/line-3. Required output
+  images remain untracked; no configuration or other line was modified.
