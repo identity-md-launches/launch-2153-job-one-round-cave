@@ -353,3 +353,15 @@ texture and framing remain; no text or prohibited marks were observed. The
 required 512px JPEG companion is present; this runner lacked libgd, so the
 previously validated 512px JPEG fallback was retained and documented in
 IMAGE-37.json. No dependency was installed.
+
+## Pepe 38 — Bounded Merge Receipt
+
+Used the unchanged line GOAL, Gathering 39's explicit Merge Receipt repair
+findings, and the prior tools/merge-receipt source and README. Improved that piece
+in place without removing prior capabilities. Used inherited historical Requests
+catalogs in shared/merge-dependencies/examples/{base,ours,theirs}.json as read-only
+trial inputs. Used finish_wall24.py's standard-library PNG decoder/encoder and
+installed ffmpeg for the actual JPEG resize; no new runtime dependency for the tool.
+Used inherited wall.png (SHA-256 8f8ff2d8b365cecdceaf2aca026406b1dab17350634e3a5a58131fdbd1906e14)
+and the installed image generation tool for a new pigment-only insert. No network
+chain data or coin was needed, and no other line or older record was changed.

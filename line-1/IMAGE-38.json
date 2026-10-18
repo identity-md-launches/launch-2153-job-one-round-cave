@@ -1,0 +1,34 @@
+{
+  "wall": "artifacts/line-1/wall-v20.png",
+  "continuation": "artifacts/line-1/wall.png",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "format": "PNG",
+  "mode": "RGB",
+  "sha256": "08142e526c7b22ae8f215d93187ba104c27226117a22264659319fad5097cfd6",
+  "ancestor_sha256": "8f8ff2d8b365cecdceaf2aca026406b1dab17350634e3a5a58131fdbd1906e14",
+  "mark_rectangle": [
+    440,
+    150,
+    100,
+    100
+  ],
+  "changed_pixels": 1438,
+  "changed_pixels_outside_rectangle": 0,
+  "thumbnail": {
+    "path": "dist/line-1/38.jpg",
+    "dimensions": [
+      512,
+      512
+    ],
+    "format": "JPEG",
+    "bytes": 74615,
+    "method": "ffmpeg resized from finished wall"
+  },
+  "method": "Installed image generation tool; black background removed and pigment blended in memory",
+  "visual_review": "Finished PNG and JPEG explicitly inspected: heavy-lidded Pepe and wide mouth retained; both inherited hands have five digits (four fingers and a thumb). No new hands, text, numbers, logos or frames. Small new pigment mark is subtle at thumbnail size; no unmet visual requirement observed.",
+  "unmet_visual_requirements": [],
+  "path_requirement_note": "Used explicitly requested dist/line-1/38.jpg companion path despite blanket picture-location prohibition."
+}
